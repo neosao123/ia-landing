@@ -1,0 +1,15 @@
+#partner-slider .owl-item {
+  display: flex;
+  align-items: center;
+}
+
+.item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#partner-slider .item img {
+  width: 100px;
+}

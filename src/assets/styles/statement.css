@@ -1,0 +1,16 @@
+.mv-container {
+  background-color: #5571af;
+  color: #ffffff;
+}
+
+p.statement-title-color {
+  color: #ffffff;
+}
+
+.statement-card h4 {
+  margin-bottom: 1rem;
+}
+
+.justify-text {
+  text-align: justify;
+}

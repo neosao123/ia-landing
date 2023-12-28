@@ -1,0 +1,26 @@
+#app-slider .owl-item {
+  display: flex;
+  align-items: center;
+}
+
+#app-slider .owl-item .slider-item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#app-slider .owl-item .slider-item img {
+  margin: 0 auto;
+  object-fit: cover;
+}
+
+#app-slider .center .slider-item img {
+  border-radius: 15px;
+}
+
+@media (max-width: 567px) {
+  #app-slider .owl-item {
+    height: 500px;
+  }
+}
