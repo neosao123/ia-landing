@@ -8,12 +8,12 @@ const Statement = () => {
     <div className="section-container bg-theme-color">
       <Container>
         <Row>
-          <Col md={6} className="mb-5 mb-lg-0">
+          <Col md={6} className="mb-5 mb-lg-0 pe-md-5">
             <AnimationOnScroll animateIn="animate__bounceIn" animateOnce={true}>
               <div className="statement-card">
                 <div className="section-title">
                   <h2 className="d-none text-light">Indians Abroad's</h2>
-                  <p className="text-light">Mission</p>
+                  <p className="text-light text-center">Mission</p>
                 </div>
                 <Stack>
                   <div className="justify-text">
@@ -28,12 +28,12 @@ const Statement = () => {
               </div>
             </AnimationOnScroll>
           </Col>
-          <Col md={6} className="mb-5 mb-lg-0">
+          <Col md={6} className="mb-5 mb-lg-0 ps-md-5">
             <AnimationOnScroll animateIn="animate__bounceIn" animateOnce={true}>
               <div className="statement-card">
                 <div className="section-title">
                   <h2 className="d-none text-light">Indians Abroad's</h2>
-                  <p className="text-light">Vision</p>
+                  <p className="text-light text-center">Vision</p>
                 </div>
                 <Stack>
                   <div className="justify-text">

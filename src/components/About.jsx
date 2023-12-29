@@ -21,26 +21,22 @@ const About = () => {
             >
               <Stack>
                 <div className="txt mb-3">
-                  IndiansAbroad is a global Android and iOS application that
-                  caters to the needs of Indians living outside of India.
+                  IndiansAbroad is a global Android and iOS application that caters to the needs of Indians
+                  living outside of India.
                 </div>
                 <div className="txt mb-3">
-                  Our mission is to provide a platform for Indians abroad to
-                  connect, share, and stay informed about their homeland and
-                  culture. With our user-friendly interface and extensive
-                  features, we strive to make the transition to a new country as
-                  seamless as possible.
+                  Our purpose is to provide a platform for Indians in abroad to connect, share, and stay
+                  informed about their homeland and culture. With our user-friendly interface and
+                  extensive features, we strive to make the transition to a new country as seamless as
+                  possible.
                 </div>
                 <div className="txt mb-3">
-                  At IndiansAbroad we're committed to making your journey as an
-                  Indian living abroad more enriching, enjoyable, and connected.
-                  Our platform is designed to be your virtual bridge to India,
-                  ensuring that you can cherish your heritage while embracing
-                  the opportunities that come with your global adventures. Join
-                  our community today and embark on a new chapter of your life
-                  with the support and companionship of your fellow Indians
-                  abroad. Together, we can make the world feel a little more
-                  like home.
+                  At IndiansAbroad we're committed to making your journey as an Indian living abroad
+                  more enriching, enjoyable, and connected. Our platform is designed to be your virtual
+                  bridge to India, ensuring that you can cherish your heritage while embracing the
+                  opportunities that come with your global adventures. Join our community today and
+                  embark on a new chapter of your life with the support and companionship of your fellow
+                  Indians abroad. Together, we can make the world feel a little more like home.
                 </div>
               </Stack>
             </Col>

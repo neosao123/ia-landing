@@ -7,17 +7,17 @@ const NavMenu = () => {
   const location = useLocation();
 
   return (
-    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
-      <div class="container">
+    <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+      <div className="container">
         <RouterLink className="navbar-brand" to={"/"}>
           <img className="brand-logo" src={imgLogo} alt="Indians-Abroad Logo" />
           <span>IndiansAbroad</span>
         </RouterLink>
-        {/* <a class="" href="/"></a> */}
+        {/* <a className="" href="/"></a> */}
         {location?.pathname === "/" && (
           <>
             <button
-              class="navbar-toggler"
+              className="navbar-toggler"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarSupportedContent"
@@ -25,10 +25,10 @@ const NavMenu = () => {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span class="navbar-toggler-icon"></span>
+              <span className="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <div className="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li className="nav-item">
                   <Link
                     className="nav-link"

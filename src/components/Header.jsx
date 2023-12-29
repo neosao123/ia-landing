@@ -4,7 +4,6 @@ import { Row, Container, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { GrAppleAppStore } from "react-icons/gr";
 import { BiLogoPlayStore } from "react-icons/bi";
-import { AnimationOnScroll } from "react-animation-on-scroll";
 import "../assets/styles/header.css";
 
 const Header = () => {
@@ -24,12 +23,12 @@ const Header = () => {
               >
                 <div>
                   <h1 className="animate__animated animate__fadeInLeft">
-                    Connect with <span>Indians Abroad</span>
+                    Connect with <span>Indian Expats</span>
                   </h1>
                   <h2 className="animate__animated animate__fadeInRight">
-                    Welcome to IndiansAbroad - Your Connection to Home, Wherever
-                    You Are! Stay connected with Indians living abroad through
-                    our Android and iOS application.
+                    Connecting Indians Worldwide!<br />
+                    Welcome to IndiansAbroad - Your connection to home,
+                    wherever you are!
                   </h2>
                   <div className="text-center text-lg-start">
                     <Link
@@ -62,18 +61,19 @@ const Header = () => {
       </div>
       <div className="section-container bg-theme-color">
         <Container>
-          <Col md={10} lg={10} className="text-center offset-md-1 offset-lg-1">
+          <Col md={10} lg={10} className="offset-md-1 offset-lg-1">
+            <div style={{ fontSize: "1.7rem", marginBottom: "2rem", fontWeight: "bold", textAlign: "center" }}>
+              Indian professional community network platform designed specifically for <span style={{ textDecoration: "underline" }}>Indians by Indians</span>.
+            </div>
             <div style={{ fontSize: "1.5rem", textAlign: "justify" }}>
-              Introducing IndiansAbroad, the ultimate Android and iOS
-              application designed to connect Indians across the globe. Our
-              innovative platform brings together the Indian diaspora, providing
-              a seamless experience for networking, cultural exchange, and
-              community building. Whether you're a student, professional, or
-              simply passionate about Indian culture, IndiansAbroad offers a
-              one-stop solution to connect, collaborate, and celebrate together.
-              Join our global community today and unlock a world of
-              opportunities, friendships, and shared experiences. IndiansAbroad
-              - bridging the distance, uniting the Indian community worldwide.
+              Introducing IndiansAbroad, the ultimate Android and iOS application
+              designed to connect Indians across the globe. Our platform brings together
+              the Indian diaspora, providing a seamless experience for networking,
+              cultural exchange, and community building. Whether you're a student,
+              professional, or simply passionate about Indian culture, IndiansAbroad
+              offers a one-stop solution to connect, collaborate, and celebrate together.
+              Join our global community today and unlock a world of opportunities,
+              friendships, and shared experiences.
             </div>
           </Col>
         </Container>

@@ -25,9 +25,8 @@ const Success = () => {
                 marginBottom: "2.5rem",
               }}
             >
-              At IndiansAbroad we're more than just an app; we're your trusted
-              partner in success. Your journey, your aspirations, and your
-              achievements are at the heart of everything we do.
+              At IndiansAbroad we're more than just an app. We are your trusted partner in success. Your
+              journey, your aspirations, and your achievements are at the heart of everything we do.
             </div>
             <div
               className=""
@@ -37,8 +36,8 @@ const Success = () => {
                 marginBottom: "2.5rem",
               }}
             >
-              Here's why being a part of IndiansAbroad is the best decision
-              you'll make for your professional growth:
+              We curate opportunities specifically for you, connecting you with like-minded Indian
+              professionals and organizations that align with your career goals.
             </div>
             <div
               className=""
@@ -48,9 +47,8 @@ const Success = () => {
                 marginBottom: "2.5rem",
               }}
             >
-              Tailored Opportunities: We curate opportunities specifically for
-              you, connecting you with like-minded Indian professionals and
-              organizations that align with your career goals.
+              Your success is our greatest achievement. We are here to celebrate your victories, support
+              you through challenges, and provide you with the resources you need to thrive.
             </div>
             <div
               className=""
@@ -60,21 +58,8 @@ const Success = () => {
                 marginBottom: "2.5rem",
               }}
             >
-              Your success is our greatest achievement. We're here to celebrate
-              your victories, support you through challenges, and provide you
-              with the resources you need to thrive.
-            </div>
-            <div
-              className=""
-              style={{
-                fontSize: "1.2rem",
-                textAlign: "justify",
-                marginBottom: "2.5rem",
-              }}
-            >
-              Join IndiansAbroad and experience the benefits of being part of a
-              community that cares about your growth, your dreams, and your
-              future.
+              Join IndiansAbroad and experience the benefits of being part of a community that cares
+              about your growth, your dreams, and your future.
             </div>
           </Col>
         </Container>

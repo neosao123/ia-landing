@@ -5,7 +5,7 @@ import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import "../assets/styles/partner-slider.css";
-
+import introVideo from "../assets/images/intro-video.mp4";
 export default class PartnerSlider extends Component {
   render() {
     const state = {
@@ -72,7 +72,7 @@ export default class PartnerSlider extends Component {
               lg={10}
               className="text-center offset-md-1 offset-lg-1"
             >
-              <div style={{ fontSize: "1.5rem", textAlign: "justify" }}>
+              <div style={{ fontSize: "1.5rem", textAlign: "justify", display: "none" }}>
                 Unleash the power of Indian innovation and ambition! It's time
                 to rewrite the story of professional community networks, to
                 carve a space that's truly ours, where our brilliance and
@@ -83,6 +83,12 @@ export default class PartnerSlider extends Component {
                 networks giants rise from distant lands, shaping the way we
                 connect, communicate, and share our lives. But now, it's OUR
                 turn to make our mark on the world stage.
+              </div>
+              <div>
+                <video width="auto" height="400" controls>
+                  <source src={introVideo} type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
               </div>
             </Col>
           </Container>

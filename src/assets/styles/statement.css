@@ -14,3 +14,20 @@ p.statement-title-color {
 .justify-text {
   text-align: justify;
 }
+
+.ps-md-large {
+  padding-left: 4rem;
+}
+
+.pe-md-large {
+  padding-right: 4rem;
+}
+
+@media (max-width: 767px) {
+  .pe-md-large {
+    padding-right: 0rem;
+  }
+  .ps-md-large {
+    padding-left: 0rem;
+  }
+}

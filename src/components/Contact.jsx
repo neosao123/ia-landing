@@ -101,7 +101,7 @@ const Contact = () => {
                 <form
                   id="sendJobform"
                   onSubmit={formik.handleSubmit}
-                  enctype="multipart/form-data"
+                  encType="multipart/form-data"
                 >
                   <div className="form-group mb-3">
                     <input
