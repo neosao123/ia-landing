@@ -19,7 +19,7 @@ const Privacy = () => {
       <div className="main-container bg-white">
         <div className="container-fluid bg-theme-color">
           <div className="container section-title py-5">
-            <p className="text-white">Privary Policy</p>
+            <p className="text-white">Privacy Policy</p>
           </div>
         </div>
         <div className="container tcBlock">
